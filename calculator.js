@@ -1,5 +1,5 @@
-document.getElementsByTagName("button").forEach(element => {
-  element.setAttribute("onclick", buttonClick(this))
+Array.from(document.getElementsByTagName("button")).forEach(element => {
+  element.setAttribute("onclick", "buttonClick(this)")
 })
 
 function buttonClick(element) {
