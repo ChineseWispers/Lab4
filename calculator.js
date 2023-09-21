@@ -3,12 +3,25 @@ Array.from(document.getElementsByTagName("button")).forEach(element => {
 })
 
 function buttonClick(element) {
-  if (element.className === "number") {
-    addToDisplay(element.innerHTML)
+  switch (element.className) {
+    case "input":
+      addToDisplay(element.innerHTML)
+      break
+    case "clear":
+      document.getElementById("display").innerHTML = ""
+      break
+    case "delete":
+      document.getElementById("display").innerHTML = currentInput().slice(0, -1)
+      break
+    case "equal":
+      document.getElementById("display").innerHTML = currentInput().concat(digit)
   }
 }
 
+function currentInput() {
+  return document.getElementById("display").innerHTML
+}
+
 function addToDisplay(digit) {
-  currentInput = document.getElementById("display").innerHTML
-  document.getElementById("display").innerHTML = currentInput.concat(digit)
+  document.getElementById("display").innerHTML = currentInput().concat(digit)
 }
