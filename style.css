@@ -31,4 +31,5 @@ span#display {
   margin-left: 20px;
   display: inline-block;
   border: 1px solid black;
+  text-align: right;
 }
