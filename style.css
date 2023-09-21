@@ -24,7 +24,7 @@ button {
   visibility: hidden;
 }
 
-span.display {
+span#display {
   background-color: #FFFDD0;
   width: 305px;
   height: 30px;
