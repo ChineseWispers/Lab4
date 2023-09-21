@@ -1,7 +1,10 @@
 body {
   margin: 0;
   background-image: url(pink.jpeg);
-  text-align: center;
+}
+
+h2 {
+  margin-left: 20px;
 }
 
 .flex-container {
@@ -19,4 +22,13 @@ button {
 
 .space {
   visibility: hidden;
+}
+
+span.display {
+  background-color: #FFFDD0;
+  width: 305px;
+  height: 30px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid black;
 }
