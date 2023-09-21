@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-image: url(pink.jpeg)
+  background-image: url(pink.jpeg);
+  text-align: center;
 }
 
 .flex-container {
