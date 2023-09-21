@@ -8,10 +8,14 @@ body {
   flex-direction : row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 500px;
+  width: 350px;
 }
 
 button {
   width: 50px;
-  margin: 20px 40px 20px
+  margin: 20px 15px 20px
+}
+
+.space {
+  visibility: hidden;
 }
