@@ -13,8 +13,8 @@ function buttonClick(element) {
     case "delete":
       document.getElementById("display").innerHTML = currentInput().slice(0, -1)
       break
-    case "equal":
-      document.getElementById("display").innerHTML = currentInput().concat(digit)
+    case "equals":
+      document.getElementById("display").innerHTML = calculate(currentInput())
   }
 }
 
