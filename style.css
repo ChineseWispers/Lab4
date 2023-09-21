@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-image: url(pink.jpeg)
+}
+
+.flex-container {
+  display: flex;
+  flex-direction : row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+button {
+  width: 50px;
+  margin: 20px 40px 20px
+}
