@@ -24,11 +24,12 @@ button {
   visibility: hidden;
 }
 
-span.display {
+span#display {
   background-color: #FFFDD0;
   width: 305px;
   height: 30px;
   margin-left: 20px;
   display: inline-block;
   border: 1px solid black;
+  text-align: right;
 }
