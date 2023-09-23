@@ -45,8 +45,8 @@ function divide(x, y) {
   return x / y;
 }
 
-/* Below are functions to calculate and process input.
-They became more complicated as I wanted the calculator to be able to:
+/* Below are functions to calculate and process input, with added functionality.
+They are slightly more complicated as I wanted the calculator to be able to:
  1. process negative numbers 
  2. handle multiple operator input
  3. enable continuous calculations */
